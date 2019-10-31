@@ -12,3 +12,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.Table{
+  height: 400px;
+}
+
+.header-button-row{
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
