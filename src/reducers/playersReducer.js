@@ -25,7 +25,7 @@ const getListSuccess = (state, action) => {
 const getListFailed = (state, action) => ({
   ...state,
   getListLoading: false,
-  playersList: [{"_id":"5dbac40fe974d9729d8c5590","name":"p1","user_match_info":{"win_ratio":0}},{"_id":"5dbac40fe974d9729d8c5591","name":"p2","user_match_info":{"win_ratio":20}},{"_id":"5dbac40fe974d9729d8c5592","name":"p3","user_match_info":{"win_ratio":90}}]
+  playersList: [{ "_id": "5dbac40fe974d9729d8c5590", "name": "p1", "user_match_info": { "win_ratio": 0 } }, { "_id": "5dbac40fe974d9729d8c5591", "name": "p2", "user_match_info": { "win_ratio": 20 } }, { "_id": "5dbac40fe974d9729d8c5592", "name": "p3", "user_match_info": { "win_ratio": 90 } }]
 })
 
 const authReducer = (state = initialState, action) => {

@@ -1,10 +1,7 @@
 import api from 'service/api'
 
-export const getRequest = async requestUrl =>
-  api
-    .get(requestUrl)
-    .then(resp => resp)
-    .catch(error => error.response)
+export const getRequest = (requestUrl) =>
+  api.get(requestUrl)
 
 export const postRequest = async (requestUrl, data) =>
   api

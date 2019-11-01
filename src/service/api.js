@@ -5,8 +5,7 @@ export default axios.create({
   withCredentials: false,
   crossDomain: true,
   headers: {
-    'Content-Type': 'application/json',
-    'Access-Control-Allow-Origin': '*'
+    'Content-Type': 'application/json'
   }
 })
 
